@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Smith-Cv.pdf";
-import Info from "./Info";
+import CV from "../../assets/Jidonee.pdf";
 
 const About = () => {
   return (
@@ -14,16 +13,16 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data">
-          <Info />
-
           <p className="about__description">
             이름 : 이지선 <br></br>
-            나이 : 24세 <br></br>
-            학력 : 우석대학교 정보보안학과 재학중 
+            생년월일 : 00.12.09 <br></br>
+            이메일 : leejisun1209@naver.com <br></br>
+            학력 : 우석대학교(정보보안학과) - 재학중 
           </p>
 
+
           <a download="" href={CV} className="button button--flex">
-            Download CV
+            Download Resume
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"

@@ -8,36 +8,22 @@ const Footer = () => {
         <h1 className="footer__title">Jidonee</h1>
 
         <ul className="footer__list">
-          <li>
-            <a href="#about" className="footer__link">
-              About
-            </a>
-          </li>
-
-          <li>
-            <a href="#portfolio" className="footer__link">
-              Projects
-            </a>
-          </li>
-
-          <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
-            </a>
-          </li>
+          <a className="footer__link">
+            본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 만들어진 사이트입니다.
+          </a>
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://github.com/Jidonee/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-github"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/Jidonee"
             className="footer__social-link"
             target="_blank"
           >
@@ -45,16 +31,16 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://twitter.com/"
+            href="http://www.jiseon.kr/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-twitter"></i>
+            <i className="bx bxl-internet-explorer"></i>
           </a>
         </div>
 
         <span className="footer__copy">
-          &#169; Crypticalcoder. All rigths reserved
+          &#169; Lee Ji Seon. All rigths reserved
         </span>
       </div>
     </footer>

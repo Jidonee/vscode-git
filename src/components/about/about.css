@@ -40,6 +40,8 @@
 }
 
 .about__description {
+    color: var(--title-color);
+    font-size: var(--h3-font-size);
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
